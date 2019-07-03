@@ -1,0 +1,4 @@
+node_modules
+package-lock.json
+cypress/my-cucumber-files/TEST--cucumber--BackgroundSection--A.json
+cypress/videos/BackgroundSection.feature.mp4

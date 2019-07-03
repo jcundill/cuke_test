@@ -1,0 +1,24 @@
+{
+  "name": "cuke_test",
+  "version": "1.0.0",
+  "description": "test out the empty file issue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.3.1",
+    "cypress-cucumber-preprocessor": "github:jcundill/cypress-cucumber-preprocessor"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/my-cucumber-files",
+      "filePrefix": "TEST--cucumber--",
+      "fileSuffix": "--A"
+    },
+    "nonGlobalStepDefinitions": true
+  }
+}
